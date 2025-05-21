@@ -17,8 +17,6 @@ This project includes variance reduction techniques, convergence analysis, and d
 
 ##  Project Structure
 
-## Project Structure
-
 - monte-carlo-pricer/
   - models/           # Asset dynamics (GBM)
   - pricers/          # Monte Carlo pricing engine
