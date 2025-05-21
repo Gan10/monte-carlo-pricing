@@ -19,12 +19,12 @@ This project includes variance reduction techniques, convergence analysis, and d
 
 ## Project Structure
 
-monte-carlo-pricer/
-├── models/ # Asset dynamics (e.g., GBM)
-├── pricers/ # Monte Carlo pricing engine
-├── products/ # Option products (European, Asian, etc.)
-├── sensitivity/ # Sensitivity computation (e.g., price vs. sigma, K, T...)
-├── notebook.ipynb # Demo and visualizations
-├── README.md # Project documentation
-├── requirements.txt # Dependencies
-└── .gitignore # Files to exclude from Git
+- monte-carlo-pricer/
+  - models/           # Asset dynamics (GBM)
+  - pricers/          # Monte Carlo pricing engine
+  - products/         # Option products (European, Asian, etc.)
+  - sensitivity/      # Sensitivity computation (e.g., price vs. sigma, K, T...)
+  - notebook.ipynb    # Demo and visualizations
+  - README.md         # Project documentation
+  - requirements.txt  # Dependencies
+  - .gitignore        # Files to exclude from Git
